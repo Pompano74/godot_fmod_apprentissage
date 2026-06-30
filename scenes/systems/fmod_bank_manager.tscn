@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bs7glvegre10l"]
+
+[node name="fmod_bank_manager" type="Node" unique_id=1290479028]
+
+[node name="FmodBankLoader" type="FmodBankLoader" parent="." unique_id=676925149]
+bank_paths = ["res://assets/fmod_banks/Desktop/Master.strings.bank", "res://assets/fmod_banks/Desktop/Master.bank", "res://assets/fmod_banks/Desktop/ambiant.bank", "res://assets/fmod_banks/Desktop/music.bank", "res://assets/fmod_banks/Desktop/SFX.bank"]

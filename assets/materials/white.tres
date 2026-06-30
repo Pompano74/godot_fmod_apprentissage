@@ -1,0 +1,4 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bowmhcrgp7ck0"]
+
+[resource]
+roughness_texture_channel = 1

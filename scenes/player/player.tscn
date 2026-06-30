@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://b5m8pwqfy0s1"]
+
+[ext_resource type="Material" uid="uid://b56wqehdwkdbt" path="res://assets/materials/red.tres" id="1_8afob"]
+[ext_resource type="Script" uid="uid://bqwoy6oes645r" path="res://scripts/player/player.gd" id="1_gmlin"]
+[ext_resource type="Material" uid="uid://cdlkd3kaddbts" path="res://assets/materials/blue.tres" id="3_gmlin"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_x7p2l"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_8afob"]
+
+[node name="player" type="Node3D" unique_id=697864473]
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=387797988]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+script = ExtResource("1_gmlin")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" unique_id=1489588627]
+shape = SubResource("CapsuleShape3D_x7p2l")
+
+[node name="head" type="Node3D" parent="CharacterBody3D" unique_id=251180933]
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="CharacterBody3D/head" unique_id=483934404]
+transform = Transform3D(0.72, 0, 0, 0, -1.3353829e-08, 0.62, 0, -0.3055, -2.7101061e-08, 0, 0.70000005, -0.2)
+material_override = ExtResource("3_gmlin")
+mesh = SubResource("CapsuleMesh_8afob")
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D/head" unique_id=1618335380]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="FmodListener3D" type="FmodListener3D" parent="CharacterBody3D/head" unique_id=439591538]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="body" type="Node3D" parent="CharacterBody3D" unique_id=1674464150]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D/body" unique_id=770085339]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.07558155, 0)
+material_override = ExtResource("1_8afob")
+mesh = SubResource("CapsuleMesh_8afob")
+
+[node name="sounds" type="Node3D" parent="CharacterBody3D" unique_id=1865918728]
+
+[node name="footSteps" type="FmodEventEmitter3D" parent="CharacterBody3D/sounds" unique_id=1780529834]
+event_name = "event:/sfx/footstep_player_sfx"
+event_guid = "{3ca912d2-5a3c-46c1-89d8-8e86f16b37e8}"
+fmod_parameters/surface_type/id = -2480849434995009266
+fmod_parameters/surface_type = 0.0
+fmod_parameters/surface_type/variant_type = 3
+
+[node name="RayCast3D" type="RayCast3D" parent="CharacterBody3D" unique_id=1817450601]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.24390137, 0)

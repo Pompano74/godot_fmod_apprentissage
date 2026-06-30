@@ -26,3 +26,7 @@ Fmod 2.03.06 : https://www.fmod.com/download#fmodstudio
 
 5. cloner (Pompano74/godot_fmod_apprentissage).
 <img width="628" height="464" alt="image" src="https://github.com/user-attachments/assets/67a31fab-ae9c-4f25-a64a-514d455f623e" />
+
+
+Le "clone du projet" est la copie du projet sur votre ordinateur, placer le projet dans un emplacement logique dans vos fichier d'ordinateur (PAS SUR LE BUREAU/DESKTOP).
+cette copie vous permet d'apporter des modifications au projet et par la suite d'envoyer ceux-ci à toute personnes détenant une copie du projet.

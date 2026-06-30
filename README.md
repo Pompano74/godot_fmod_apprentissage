@@ -1,4 +1,4 @@
-1. télécharger les applications suivante:
+1. télécharger les applications suivante, ASSURER VOUS DE TÉLÉCHARGER LES BONNE VERSION POUR GODOT ET FMOD:
 
 visual studio code : https://code.visualstudio.com/download?_exp_download=fb315fc982
 <img width="894" height="582" alt="image" src="https://github.com/user-attachments/assets/c73cd44c-7608-498f-8d2e-328e037b09d0" />

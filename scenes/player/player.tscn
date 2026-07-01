@@ -40,10 +40,13 @@ mesh = SubResource("CapsuleMesh_8afob")
 [node name="sounds" type="Node3D" parent="CharacterBody3D" unique_id=1865918728]
 
 [node name="footSteps" type="FmodEventEmitter3D" parent="CharacterBody3D/sounds" unique_id=1780529834]
-event_guid = "{3ca912d2-5a3c-46c1-89d8-8e86f16b37e8}"
-fmod_parameters/surface_type/id = -2480849434995009266
-fmod_parameters/surface_type = 0.0
-fmod_parameters/surface_type/variant_type = 3
+event_name = "event:/sfx/footstep"
+event_guid = "{3cd9a1bc-8914-4e3b-85a9-22ff2a382b65}"
+fmod_parameters/surface_type/id = -1729435259325284569
+fmod_parameters/surface_type = "grass"
+fmod_parameters/surface_type/labels = PackedStringArray("grass", "wood", "carpet")
+fmod_parameters/surface_type/variant_type = 4
+transform = Transform3D(0.9853969, -0.16516864, 0.041378565, 0.16364518, 0.9857925, 0.037859064, -0.047043815, -0.030534793, 0.998426, 0, 0, 0)
 
 [node name="RayCast3D" type="RayCast3D" parent="CharacterBody3D" unique_id=1817450601]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.24390137, 0)

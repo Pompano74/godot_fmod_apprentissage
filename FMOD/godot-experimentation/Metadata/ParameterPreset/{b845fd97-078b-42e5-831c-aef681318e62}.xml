@@ -12,6 +12,18 @@
 		</relationship>
 	</object>
 	<object class="GameParameter" id="{1eb42be9-7036-4b65-a0f9-24ed970bd8c4}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>start</value>
+			<value>synth transition</value>
+			<value>moody</value>
+			<value>synth + lead</value>
+		</property>
 		<property name="initialValue">
 			<value>0</value>
 		</property>

@@ -41,13 +41,13 @@ func _physics_process(delta: float) -> void:
 				if "surfaceType" in obj:
 					match obj.surfaceType:
 						"Carpet":
-							$sounds/footSteps.set_parameter("surface_type", 0.0)
+							$sounds/footSteps.set_parameter("surface_type", "carpet")
 							print(obj.surfaceType)
 						"Grass":
-							$sounds/footSteps.set_parameter("surface_type", 0.1)
+							$sounds/footSteps.set_parameter("surface_type", "grass")
 							print(obj.surfaceType)
 						"Wood":
-							$sounds/footSteps.set_parameter("surface_type", 0.2)
+							$sounds/footSteps.set_parameter("surface_type", "wood")
 							print(obj.surfaceType)
 					$sounds/footSteps.play()
 					footStepTimer = footStepTimerReset

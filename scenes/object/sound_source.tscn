@@ -7,7 +7,6 @@
 [node name="sound_source" type="Node3D" unique_id=1795437681]
 
 [node name="FmodEventEmitter3D" type="FmodEventEmitter3D" parent="." unique_id=129497891]
-event_name = "event:/ambiant/bird_ambiant"
 event_guid = "{c5e35dd5-de80-4fb0-b72e-5616e01ab7b8}"
 autoplay = true
 

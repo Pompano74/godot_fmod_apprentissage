@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Workspace" id="{9d78885b-79a2-40bc-9e0e-7b619aa5b468}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../../GodotStuff/fmod-experimentation/assets/fmod_banks</value>
+			<value>../../assets/fmod_banks</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{2016b9a1-7a47-4603-b0ed-46f234a69093}</destination>

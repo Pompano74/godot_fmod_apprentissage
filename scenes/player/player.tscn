@@ -40,7 +40,6 @@ mesh = SubResource("CapsuleMesh_8afob")
 [node name="sounds" type="Node3D" parent="CharacterBody3D" unique_id=1865918728]
 
 [node name="footSteps" type="FmodEventEmitter3D" parent="CharacterBody3D/sounds" unique_id=1780529834]
-event_name = "event:/sfx/footstep_player_sfx"
 event_guid = "{3ca912d2-5a3c-46c1-89d8-8e86f16b37e8}"
 fmod_parameters/surface_type/id = -2480849434995009266
 fmod_parameters/surface_type = 0.0

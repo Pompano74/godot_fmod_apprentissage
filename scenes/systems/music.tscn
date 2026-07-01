@@ -3,7 +3,6 @@
 [node name="music" type="Node" unique_id=955635000]
 
 [node name="FmodEventEmitter3D" type="FmodEventEmitter3D" parent="." unique_id=1231745028]
-event_name = "event:/music/lowFi_music"
 event_guid = "{a6f667a2-972e-4a54-9c63-3e0552ed90a4}"
 autoplay = true
 volume = 0.2
